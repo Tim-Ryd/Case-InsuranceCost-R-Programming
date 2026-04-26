@@ -21,7 +21,7 @@ Därefter gjordes en beskrivande analys med tabeller och figurer. Slutligen bygg
 
 Försäkringskostnaderna varierar tydligt mellan kunder. Genomsnittlig kostnad är ungefär 10 060 och medianen är ungefär 9 124. Att medelvärdet är högre än medianen kan tolkas som att det finnas vissa kunder med särskilt höga kostnader.
 
-Rökning är en av de tydligaste skillnaderna i datat. Icke-rökare har en genomsnittlig kostnad på ungefär 8 586, medan rökare har en genomsnittlig kostnad på ungefär 16 537. Detta är en stor skillnad och gör rökning till en viktig variabel att ta med i regressionsmodellen.
+Rökning är en av de tydligaste skillnaderna i datan. Icke-rökare har en genomsnittlig kostnad på ungefär 8 586, medan rökare har en genomsnittlig kostnad på ungefär 16 537. Detta är en stor skillnad och gör rökning till en viktig variabel att ta med i regressionsmodellen.
 
 BMI verkar också spela roll. Kunder med fetma har en genomsnittlig kostnad på ungefär 10 910, medan kunder med normal BMI har en genomsnittlig kostnad på ungefär 9 218. Skillnaden är inte lika stor som för rökning, men sambandet är ändå relevant.
 
@@ -67,11 +67,11 @@ Regressionsmodellen kan användas som ett beslutsstöd för att förstå vilka f
 
 Modellen visar samband men bevisar inte orsakssamband. Det kan också finnas viktiga faktorer som inte finns med i datasetet, till exempel inkomst, yrke, mer detaljerad sjukdomshistorik eller vårdkostnader över tid. En annan begränsning är att linjär regression antar ungefär linjära samband, men verkliga försäkringskostnader kan vara mer komplexa.
 
-Det finns också några saknade värden och mindre inkonsekvenser i datat. Dessa hanterades på ett rimligt sätt, men beroende på vilka val som görs vid datastädning så kan det påverka resultatet.
+Det finns också några saknade värden och mindre inkonsekvenser i datan. Dessa hanterades på ett rimligt sätt, men beroende på vilka val som görs vid datastädning så kan det påverka resultatet.
 
 ## Möjliga förbättringar
 
-Analysen hade kunnat förbättras genom att testa fler modeller, till exempel modeller med interaktioner mellan rökning och BMI eller rökning och kronisk sjukdom. Man hade också kunnat dela upp datat i träningsdata och testdata för att undersöka hur bra modellen fungerar på nya kunder.
+Analysen hade kunnat förbättras genom att testa fler modeller, till exempel modeller med interaktioner mellan rökning och BMI eller rökning och kronisk sjukdom. Man hade också kunnat dela upp datan i träningsdata och testdata för att undersöka hur bra modellen fungerar på nya kunder.
 
 ## Självreflektion
 
