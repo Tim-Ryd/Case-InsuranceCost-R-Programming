@@ -74,7 +74,7 @@ Analysen består av följande steg:
 * Jämförelse mellan flera modeller
 * Utvärdering med R² och residualer
 
-### 5. Kort tolkning och slutsat
+### 5. Kort tolkning och slutsats
 * Tolkning och slutsats
 ---
 
