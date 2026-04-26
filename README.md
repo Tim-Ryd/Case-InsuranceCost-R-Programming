@@ -12,7 +12,7 @@ Projektet består av följande filer:
 
 * `insurance_analysis.R` – kod för hela analysen
 * `insurance_costs.csv` – dataset
-* `rapport_av_Analys.md` – sammanfattande rapport
+* `Rapport_av_Analys.md` – sammanfattande rapport
 
 ---
 
